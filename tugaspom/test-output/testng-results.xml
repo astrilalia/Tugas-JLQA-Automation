@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9987" started-at="2022-08-11T15:29:04Z" finished-at="2022-08-11T15:29:14Z">
+  <suite name="Default suite" duration-ms="14245" started-at="2022-08-15T03:33:05Z" finished-at="2022-08-15T03:33:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9987" started-at="2022-08-11T15:29:04Z" finished-at="2022-08-11T15:29:14Z">
-      <class name="tugas.tugaspomtest.WebYopmailTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tugas.tugaspomtest.WebYopmailTest@4445629]" name="setUp" is-config="true" duration-ms="2582" started-at="2022-08-11T15:29:04Z" finished-at="2022-08-11T15:29:07Z">
+    <test name="Default test" duration-ms="14245" started-at="2022-08-15T03:33:05Z" finished-at="2022-08-15T03:33:20Z">
+      <class name="tugas.tugaspomtest.WebSauceDemoTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tugas.tugaspomtest.WebSauceDemoTest@4445629]" name="setUp" is-config="true" duration-ms="2495" started-at="2022-08-15T03:33:05Z" finished-at="2022-08-15T03:33:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testHome()[pri:0, instance:tugas.tugaspomtest.WebYopmailTest@4445629]" name="testHome" duration-ms="6732" started-at="2022-08-11T15:29:07Z" finished-at="2022-08-11T15:29:13Z">
+        <test-method status="PASS" signature="testSauceDemo()[pri:0, instance:tugas.tugaspomtest.WebSauceDemoTest@4445629]" name="testSauceDemo" duration-ms="4073" started-at="2022-08-15T03:33:08Z" finished-at="2022-08-15T03:33:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testHome -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tugas.tugaspomtest.WebYopmailTest@4445629]" name="tearDown" is-config="true" duration-ms="599" started-at="2022-08-11T15:29:13Z" finished-at="2022-08-11T15:29:14Z">
+        </test-method> <!-- testSauceDemo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tugas.tugaspomtest.WebSauceDemoTest@4445629]" name="tearDown" is-config="true" duration-ms="554" started-at="2022-08-15T03:33:12Z" finished-at="2022-08-15T03:33:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tugas.tugaspomtest.WebYopmailTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tugas.tugaspomtest.WebSauceDemoTest@4445629]" name="setUp" is-config="true" duration-ms="1151" started-at="2022-08-15T03:33:12Z" finished-at="2022-08-15T03:33:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSauceDemoWrongPassword()[pri:0, instance:tugas.tugaspomtest.WebSauceDemoTest@4445629]" name="testSauceDemoWrongPassword" duration-ms="719" started-at="2022-08-15T03:33:14Z" finished-at="2022-08-15T03:33:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSauceDemoWrongPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tugas.tugaspomtest.WebSauceDemoTest@4445629]" name="tearDown" is-config="true" duration-ms="544" started-at="2022-08-15T03:33:14Z" finished-at="2022-08-15T03:33:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tugas.tugaspomtest.WebSauceDemoTest@4445629]" name="setUp" is-config="true" duration-ms="1166" started-at="2022-08-15T03:33:15Z" finished-at="2022-08-15T03:33:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSauceDemoWrongUsername()[pri:0, instance:tugas.tugaspomtest.WebSauceDemoTest@4445629]" name="testSauceDemoWrongUsername" duration-ms="565" started-at="2022-08-15T03:33:16Z" finished-at="2022-08-15T03:33:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSauceDemoWrongUsername -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tugas.tugaspomtest.WebSauceDemoTest@4445629]" name="tearDown" is-config="true" duration-ms="546" started-at="2022-08-15T03:33:17Z" finished-at="2022-08-15T03:33:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tugas.tugaspomtest.WebSauceDemoTest@4445629]" name="setUp" is-config="true" duration-ms="1174" started-at="2022-08-15T03:33:17Z" finished-at="2022-08-15T03:33:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSauceDemoWrongUsernamePassword()[pri:0, instance:tugas.tugaspomtest.WebSauceDemoTest@4445629]" name="testSauceDemoWrongUsernamePassword" duration-ms="611" started-at="2022-08-15T03:33:18Z" finished-at="2022-08-15T03:33:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSauceDemoWrongUsernamePassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tugas.tugaspomtest.WebSauceDemoTest@4445629]" name="tearDown" is-config="true" duration-ms="558" started-at="2022-08-15T03:33:19Z" finished-at="2022-08-15T03:33:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tugas.tugaspomtest.WebSauceDemoTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

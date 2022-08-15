@@ -6,7 +6,7 @@ import tugas.tugaspom.pages.ContentPage;
 import tugas.tugaspom.pages.HomePage;
 import tugas.tugaspom.pages.InboxPage;
 
-public class WebYopmailTest extends BaseWebTest {
+public class WebYopmailTest extends BaseWebTestHeadless {
 	
 	String emailName = "automationtest";
 	

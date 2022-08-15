@@ -10,7 +10,7 @@ import tugas.tugaspom.pages.SauceLoginPage;
 import tugas.tugaspom.pages.SauceOverviewPage;
 import tugas.tugaspom.pages.SauceProductPage;
 
-public class WebSauceDemoTest extends BaseWebTest {
+public class WebSauceDemoTest extends BaseWebTestHeadless {
 	
 	String user = "standard_user";
 	String pass = "secret_sauce";
