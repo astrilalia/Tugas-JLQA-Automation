@@ -162,7 +162,7 @@ public class InboxPage extends BasePage {
 }
 ```
 ```java
-public class WebYopmailTest extends BaseWebTest {
+public class WebYopmailTest extends BaseWebTestHeadless {
 	
 	String emailName = "automationtest";
 	
