@@ -9,7 +9,7 @@ public class InboxPage extends BasePage {
 	By btnNewMail = By.xpath("//button[@id='newmail']//i");
 	By iFrameMail = By.xpath("//iframe[@id='ifmail']");
 	By iFrameInbox = By.xpath("//iframe[@id='ifinbox']");
-	By btnInbox = By.xpath("(//div[@id='e_ZwVjBQRkZGD0AmV3ZQNjAQH3ZwZ0AD=='])[1]");
+	By btnInbox = By.xpath("(//button[@onclick='g(this);'])[1]");
 	By inboxText = By.xpath("//div[@id='mail']");
 
 	public InboxPage(ThreadLocal<WebDriver> driver, ThreadLocal<WebDriverWait> explicitWait) {
